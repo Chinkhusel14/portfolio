@@ -22,10 +22,14 @@ html{
     top: 0;
     width: 100%;
 }
+body{
+    cursor:none;
+}
 
 a{
     text-decoration: none;
     color:inherit;
+    cursor:none;
 }
 a:hover{
     color:hsla(220, 60%, 99%, 0.641);
@@ -74,4 +78,22 @@ header {
     position: relative;
     width: 125.7rem;
     font-size:5rem;
+}
+
+.mouseDot{
+    position:absolute;
+    translate:8px 8px;
+    width:8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mouseOuterDot{
+    position:absolute;
+    width:20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
 }
